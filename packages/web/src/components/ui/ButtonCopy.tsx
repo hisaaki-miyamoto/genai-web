@@ -51,6 +51,7 @@ export const ButtonCopy = (props: Props) => {
   return (
     <Button
       variant='text'
+      type='button'
       size='sm'
       className={`min-w-[calc(102/16*1rem)] inline-flex justify-center gap-1 items-center ${className ?? ''}`}
       disabled={disabled}

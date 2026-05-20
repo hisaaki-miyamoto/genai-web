@@ -45,6 +45,7 @@
     "aws-cdk-lib": "^2.252.0",
     "aws-jwt-verify": "^5.1.1",
     "cdk-nag": "^2.38.2",
-    "constructs": "^10.6.0"
+    "constructs": "^10.6.0",
+    "ipaddr.js": "^2.4.0"
   }
 }
