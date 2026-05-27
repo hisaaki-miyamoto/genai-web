@@ -1,0 +1,9 @@
+{
+  "name": "genai-web",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+    "ghcr.io/devcontainers/features/aws-cli:1": {}
+  },
+  "postCreateCommand": "npm install && grep -q 'VITE_APP_HIDDEN_USE_CASES' packages/web/.env || echo 'VITE_APP_HIDDEN_USE_CASES={}' >> packages/web/.env",
+  "remoteUser": "codespace"
+}
